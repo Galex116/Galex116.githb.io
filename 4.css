@@ -1,0 +1,23 @@
+ul.popup{
+	list-style: none;
+ 	margin: 0px;
+ 	padding: 0px;
+}
+
+
+
+ul.popup a{
+	display: block;
+	line-height: 1em;
+	padding: 4px;
+	width: 100px;
+	height: 20px;
+	border: 1px solid black;
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+	border-radius: 6px;
+	margin: 8px;
+	
+
+}

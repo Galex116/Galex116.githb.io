@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="4.css">
+	<title>3</title>
+</head>
+<body>
+
+
+<style>
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+input[type='checkbox']{
+	display: none;
+}
+
+.popup{
+	display: none;
+	width: 400px;
+	height: 200px;
+	background: blue;
+	border: 1px solid;
+	position:absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+label{
+	color: #f0f0f0;
+	background: #363636;
+	display: inline-block;
+	padding: 10px 20px;
+	transition: 0.2s;
+}
+
+label:hover{
+	background: #4b4b4b;
+}
+
+.popup > li:hover ul{
+	display: block;
+}
+
+
+input:checked ~ ul.popup li{
+	display: block;
+}
+
+
+
+
+</style>
+
+<input type="checkbox" id="check">
+<label for="check">Открыть</label>
+<div class="popup">
+
+<ul class="popup">
+	<li><a href="/">Контакты</a></li>
+	<li><a href="/">О сайте</a></li>
+	<li><a href="/">Полезная инфа</a></li>
+</ul>
+
+
+</div>
+
+
+
+
+
+</body>
+</html>
